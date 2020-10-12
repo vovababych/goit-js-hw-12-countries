@@ -26,3 +26,20 @@ body {
 .country__description p span {
   font-weight: bold;
 }
+
+.countries-list{
+   list-style: none;
+}
+
+.countries-list__item{
+  padding: 5px;
+  margin-bottom: 5px;
+  box-shadow: none;
+  transition: box-shadow 0.4s ease;
+  cursor:pointer;
+}
+
+.countries-list__item:hover{
+box-shadow: 0 0 5px 1px;
+
+}
