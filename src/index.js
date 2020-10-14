@@ -29,7 +29,7 @@ refs.listCountries.addEventListener('click', (event) => {
 function debauncedInputCallback(event) {
   refs.listCountries.innerHTML = '';
   refs.countryDiscription.innerHTML = '';
-  input = event.target.value;
+  input = event.target.value.trim();
   if (!input) return;
   
   fetchCountries(input)
