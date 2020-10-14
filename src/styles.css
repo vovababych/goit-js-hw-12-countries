@@ -13,7 +13,11 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
-
+.inputCountry{
+  display: block;
+  margin: 20px auto;
+  
+}
 .country-name {
   text-align: center;
 }
